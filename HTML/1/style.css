@@ -6,7 +6,8 @@ html {
 caption {
     font-size: 30px;
     border: 2px black solid;
-    background-color:cornsilk;
+    background-color: cornsilk;
+    border-radius: 15px 15px 0px 0px;
 }
 
 p {
@@ -20,7 +21,9 @@ td,
     padding: 3px 5px;
 }
 
-th, .szam, #erveny {
+th,
+.szam,
+#erveny {
     border: 2px black solid;
     padding: 3px 10px;
     font-weight: bold;
@@ -33,7 +36,8 @@ th {
 
 #erveny {
     font-size: 15px;
-    background-color:cornsilk;
+    background-color: cornsilk;
+    border-radius:  0px 0px 15px 15px;
 }
 
 #center {
@@ -44,10 +48,13 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color:cornsilk;
+    background-color: cornsilk;
 }
 
-tr:hover, #napok, #erveny, thead {
+tr:hover,
+#napok,
+#erveny,
+thead {
     background-color: black;
     color: beige;
 }
