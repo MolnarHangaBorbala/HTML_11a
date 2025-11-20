@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elágazások</title>
+    <script type="text/javascript">
+        function hasonlit() {
+            var a = parseInt(document.egyagu.fizetes.value);
+            var minfiz = 256000;
+            if (minfiz != a) {
+                alert("Ön nem a minimálbért kapja.");
+            }
+            document.egyagu.fizetes.value = "";
+        }
+        function hasonlitk() {
+            var a = parseInt(document.egyagu.fizetes.value);
+            var minfiz = 256000;
+            if (minfiz > a) {
+                alert("Ön a minimálbérnél többet kap.");
+            }
+            else {
+                alert("Ön a minimálbérnél kevesebbet kap.");
+            }
+            document.egyagu.fizetes.value = "";
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Elágazások</h1>
+    <h2>Egyágú elégazás</h2>
+    <form name="egyagu">
+        <p>A jelenlegi bérminimum 256.000Ft.</p>
+        <p>Kérem adja meg a fizetését!</p>
+        <input type="text" name="fizetes"> <br>
+        <input type="button" value="Hasonlítsd össze!" onclick="hasonlit()">
+    </form>
+
+    <h2>Kétágú elégazás</h2>
+    <form name="ketagu">
+        <p>A jelenlegi bérminimum 256.000Ft.</p>
+        <p>Kérem adja meg a fizetését!</p>
+        <input type="text" name="fizetes"> <br>
+        <input type="button" value="Hasonlítsd össze!" onclick="hasonlitk()">
+    </form>
+</body>
+
+</html>
