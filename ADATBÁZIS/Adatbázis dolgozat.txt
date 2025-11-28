@@ -1,0 +1,44 @@
+1. Kék vagy zöld opelek rendszámát, tulaj, érték szerint csökken
+SELECT autok.TULAJ, autok.RSZAM
+FROM autok 
+WHERE (autok.SZIN='kék' OR autok.SZIN='zöld')
+      AND (autok.TIPUS='Opel')
+ORDER BY autok.ERTEK DESC
+
+
+2. 2000-2005, 1M-nál olcsobb ladák adatait
+SELECT autok.*
+FROM autok
+WHERE (autok.GYARTEV BETWEEN 2000 AND 2005) 
+      AND (autok.ERTEK < 1000000) 
+      AND (autok.TIPUS='Lada')
+
+
+3. K-val rendszám, gyart ev csökk
+SELECT autok.*
+FROM autok
+WHERE (autok.RSZAM LIKE 'K%')
+ORDER BY autok.GYARTEV DESC
+
+
+4. Fehér vagy kék opel, BRFK tulajdonában
+SELECT autok.*
+FROM autok
+WHERE (autok.SZIN='fehér' OR autok.SZIN='kék') 
+      AND (autok.TIPUS='Opel') 
+      AND (autok.TULAJ='BRFK')
+
+
+5. Sárga de nem opel, vagy kék de nem skoda, 2M és 3M között van
+SELECT autok.*
+FROM autok
+WHERE (autok.SZIN='sárga' AND autok.TIPUS!='Opel') 
+      OR (autok.SZIN='kék' AND autok.TIPUS!='Skoda')
+      AND (autok.ERTEK BETWEEN 2000000 AND 3000000)
+
+
+
+
+
+
+
