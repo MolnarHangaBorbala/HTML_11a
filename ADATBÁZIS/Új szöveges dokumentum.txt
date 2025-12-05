@@ -48,4 +48,5 @@ HAVING osszertek > 20000000
 SELECT autos.SZIN, COUNT(autos.RENDSZAM) AS db
 FROM autos
 GROUP BY autos.SZIN
-HAVING 20 < db > 80
+
+HAVING db BETWEEN 20 and 80
