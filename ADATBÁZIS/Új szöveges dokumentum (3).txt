@@ -1,0 +1,160 @@
+1.
+SELECT autos.*
+FROM autos
+WHERE (autos.SZIN!='fehér' AND autos.SZIN!='kék') AND autos.TIPUS='Audi'
+
+2.
+SELECT autos.*
+FROM autos
+WHERE (autos.SZIN='zöld' OR autos.SZIN='fehér') AND autos.TIPUS!='Ford'
+
+3.
+SELECT autos.*
+FROM autos
+WHERE (autos.SZIN='zöld' OR autos.SZIN='kék') AND autos.TIPUS='Ford' AND autos.GYARTEV<1990
+
+4.
+SELECT autos.*
+FROM autos
+WHERE autos.SZIN='piros' AND autos.TIPUS='Nissan' AND autos.GYARTEV BETWEEN 1980 AND 1990
+
+5.
+SELECT autos.*
+FROM autos
+WHERE autos.TIPUS='Nissan' AND autos.ERTEK > 2000000
+
+6.
+SELECT autos.RENDSZAM
+FROM autos
+WHERE autos.TIPUS LIKE 'T%' 
+
+7.
+SELECT autos.*
+FROM autos
+WHERE (autos.SZIN='lila' OR autos.SZIN='zöld') AND autos.TIPUS='Maruti'
+
+8.
+SELECT autos.*
+FROM autos
+WHERE autos.SZIN!='kék' AND autos.TULAJDONOS='BKV'
+
+9.
+SELECT autos.*
+FROM autos
+WHERE autos.TULAJDONOS LIKE 'Kovács%'
+
+10.
+SELECT autos.*
+FROM autos
+WHERE autos.TULAJDONOS LIKE 'Tóth%' AND autos.TIPUS='Toyota'
+
+11.
+SELECT autos.RENDSZAM, autos.ERTEK
+FROM autos
+WHERE autos.TIPUS='BMW' AND autos.ERTEK>3000000
+
+12.
+SELECT autos.*
+FROM autos
+WHERE autos.TIPUS='Wartburg' AND autos.ERTEK>1000000
+
+13.
+SELECT autos.*
+FROM autos
+WHERE autos.RENDSZAM LIKE 'Z%'
+ORDER BY autos.ERTEK DESC
+
+14.
+SELECT autos.*
+FROM autos
+WHERE autos.TULAJDONOS='Répa Lajos'
+
+15.
+SELECT autos.*
+FROM autos
+WHERE (autos.SZIN!='fehér' AND autos.TIPUS='Lada') OR (autos.SZIN!='kék' AND autos.TIPUS='Opel')
+
+16.
+SELECT autos.*
+FROM autos
+WHERE autos.TULAJDONOS LIKE '%Szilvia'
+
+17.
+SELECT autos.*
+FROM autos
+WHERE (autos.GYARTEV < 1980 AND autos.TIPUS='Lada') or (autos.GYARTEV > 1990 AND autos.TIPUS='Ferrari')
+
+18.
+SELECT autos.*
+FROM autos
+WHERE autos.ERTEK > 1500000 AND autos.GYARTEV > 1995 AND autos.RENDSZAM like 'R%'
+
+19.
+SELECT autos.*
+FROM autos
+WHERE (autos.GYARTEV BETWEEN 1990 and 1995) AND autos.ERTEK > 1500000 AND autos.TIPUS='Opel' AND autos.TULAJDONOS LIKE '%x%'
+
+20.
+SELECT autos.GYARTEV, COUNT(autos.RENDSZAM) as db 
+FROM autos 
+WHERE autos.SZIN='piros'
+GROUP BY autos.GYARTEV
+
+21.
+SELECT autos.*
+FROM autos 
+WHERE autos.SZIN!='piros' and autos.TIPUS='Ferrari' 
+ORDER BY autos.ERTEK
+LIMIT 1
+
+22.
+SELECT autos.TULAJDONOS
+FROM autos 
+WHERE autos.SZIN='fekete' and autos.TIPUS='Audi' 
+ORDER BY autos.ERTEK DESC
+LIMIT 1
+
+23.
+SELECT autos.SZIN, autos.TIPUS
+FROM autos 
+WHERE autos.TULAJDONOS='Tatyi Matyi' 
+
+24.
+SELECT autos.TIPUS, AVG(autos.ERTEK) as atlag
+FROM autos 
+GROUP BY autos.TIPUS
+
+25.
+SELECT SUM(autos.ERTEK) as osszertek
+FROM autos 
+WHERE autos.TULAJDONOS='BRFK'
+
+26.
+SELECT autos.TIPUS, COUNT(autos.RENDSZAM) as db
+FROM autos 
+WHERE autos.RENDSZAM LIKE 'X%'
+GROUP BY autos.TIPUS
+
+27.
+SELECT autos.*
+FROM autos 
+WHERE autos.RENDSZAM LIKE '%9'
+
+28.
+SELECT autos.GYARTEV, COUNT(autos.GYARTEV) as db
+FROM autos 
+WHERE autos.GYARTEV BETWEEN 1990 AND 1995
+GROUP by autos.GYARTEV
+
+29.
+SELECT autos.GYARTEV, COUNT(autos.GYARTEV) as db
+FROM autos 
+WHERE (autos.SZIN='fehér' OR autos.SZIN='kék')
+GROUP by autos.GYARTEV
+HAVING autos.GYARTEV BETWEEN 1992 AND 1997
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+1. Kinek van ugyan olyan színű autója mint Orbán Viktornak?
+SELECT autos.SZIN
+FROM autos
+WHERE autos.TULAJDONOS='Orbán Viktor'
+
+SELECT autos.TULAJDONOS
+FROM autos
+WHERE autos.SZIN=(SELECT autos.SZIN
+	FROM autos
+	WHERE autos.TULAJDONOS='Orbán Viktor')
+
