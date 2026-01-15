@@ -1,0 +1,105 @@
+Nobel-díj
+Adott a Nobel-díjasok adatait tartalmazó adattábla.
+1. A nobel nevû adattábla szerkezete:
+id            azonosító               szám:
+évszám        a díjazás éve           szám
+név           a díjazott neve         szöveg
+ország        a díjazott országa      szöveg
+díj           a díj fajtája           szöveg
+Adja meg a megfelelõ SQL utasításokat a feladatok megoldásához!
+
+2. Az adatbázisból hiányzik Kertész Imre 2002-es irodalmi Nobel-díja.
+Egészítse ki az adatbázist!
+
+INSERT INTO nobel (id, ev, nev, orszag, dij)
+VALUES (NULL, 2002, 'Kertész Imre', 'HU', 'irodalmi')
+
+
+3. Készítse el a magyar Nobel-díjasok listáját!
+
+SELECT *
+FROM nobel
+WHERE orszag = ’HU’
+
+
+4. Milyen díjat kapott, mikor és milyen ország színeiben Bárány Róbert?
+
+SELECT dij, ev, orszag
+FROM nobel
+WHERE nev = ’Bárány Róbert’
+
+
+5. Milyen díjat kapott, mikor és milyen ország színeiben Wigner Jenõ?
+
+SELECT dij, ev, orszag
+FROM nobel
+WHERE nev = ’Wigner Jenõ’
+
+
+6. Kik voltak a holland (ország jelölésük: NL) Nobel-díjasok?
+
+SELECT *
+FROM nobel
+WHERE orszag = ’NL’
+
+
+7. Melyik díjban részesültek a legtöbben, és hányan?
+
+SELECT dij, COUNT(*) AS db
+FROM nobel
+GROUP BY dij
+ORDER BY db DESC
+LIMIT 1
+
+
+8. Melyik évben milyen díjat nem adtak ki?
+
+SELECT DISTINCT e.ev, d.dij
+FROM nobel e
+CROSS JOIN nobel d
+WHERE NOT EXISTS (
+	SELECT 1
+	FROM nobel n
+	WHERE n.ev = e.ev AND n.dij = d.dij
+)
+ORDER BY e.ev, d.dij
+
+9. Mely országok képviselõi kaptak csak egyszer Nobel-díjat?
+
+SELECT orszag
+FROM nobel
+GROUP BY orszag
+HAVING COUNT(*) = 1
+
+
+10. Listázza ki, hogy melyik ország képviselõi hány díjat kaptak!
+A listában csak tényleges országok szerepeljenek!
+A lista az országokat rangsorban mutassa!
+
+SELECT orszag, COUNT(*) AS dijak_szama
+FROM nobel
+GROUP BY orszag
+ORDER BY dijak_szama DESC
+
+
+11. Listázza ki 1901 és 1939 között évenként és díjanként a díjazottakat és országukat!
+
+SELECT ev, dij, nev, orszag
+FROM nobel
+WHERE ev BETWEEN 1901 AND 1939
+ORDER BY ev, dij, nev;
+
+
+12. Írassa ki, évszámonként, azon belül díjanként, abc-rendben olvasható módon a díjazottak nevét és országuk!
+
+SELECT ev, dij, nev, orszag
+FROM nobel
+ORDER BY ev, dij, nev;
+
+
+13. Írassa ki az országok neveit az elnyert díjak száma szerinti csökkenõ sorrendben!
+
+SELECT orszag, COUNT(*) AS db
+FROM nobel
+GROUP BY orszag
+ORDER BY db DESC;

@@ -1,0 +1,804 @@
+1901	van't Hoff, Jacobus Henricus	NL	kémiai
+1902	Fischer, Emil	D	kémiai
+1903	Arrhenius, Svante August 	S	kémiai
+1904	Ramsay, Sir William	GB	kémiai
+1905	Baeyer, Adolf von, lovag 	D	kémiai
+1906	Moissan, Henri 	F	kémiai
+1907	Buchner, Eduard	D	kémiai
+1908	Rutherford, Ernest 	GB	kémiai
+1909	Ostwald, Wilhelm 	D	kémiai
+1910	Wallach, Otto	D	kémiai
+1911	Curie-Sk?odowska, Marie	F	kémiai
+1912	Grignard, Victor 	F	kémiai
+1912	Sabatier, Paul 	F	kémiai
+1913	Werner, Alfred 	CH	kémiai
+1914	Richards, Theodore William 	USA	kémiai
+1915	Willstätter, Richard 	D	kémiai
+1916	-		kémiai
+1917	-		kémiai
+1918	Haber, Fritz 	D	kémiai
+1919	-		kémiai
+1920	Nernst, Walther	D	kémiai
+1921	Soddy, Frederick 	GB	kémiai
+1922	Aston, Francis William 	GB	kémiai
+1923	Pregl, Fritz 	A	kémiai
+1924	-		kémiai
+1925	Zsigmondy, Richard 	D	kémiai
+1926	Svedberg, The (Theodor)	S	kémiai
+1927	Wieland, Heinrich Otto 	D	kémiai
+1928	Windaus, Adolf 	D	kémiai
+1929	Harden, Arthur 	GB	kémiai
+1929	Euler-Chelpin, Hans von	S	kémiai
+1930	Fischer, Hans	D	kémiai
+1931	Bosch, Carl	D	kémiai
+1931	Bergius, Friedrich 	D	kémiai
+1932	Langmuir, Irving 	USA	kémiai
+1933	-		kémiai
+1934	Urey, Harold Clayton 	USA	kémiai
+1935	Joliot-Curie, Frédéric 	F	kémiai
+1935	Joliot-Curie, Ir?ne	F	kémiai
+1936	Debye, Peter 	NL	kémiai
+1937	Haworth, Walter Norman 	GB	kémiai
+1937	Karrer, Paul 	CH	kémiai
+1938	Kuhn, Richard	D	kémiai
+1939	Butenandt, Adolf Friedrich Johann	D	kémiai
+1939	Ruži?ka, Leopold 	CH	kémiai
+1940	-		kémiai
+1941	-		kémiai
+1942	-		kémiai
+1943	Hevesy György	H	kémiai
+1944	Hahn, Otto 	D	kémiai
+1945	Virtanen, Artturi Ilmari 	SF	kémiai
+1946	Sumner, James	USA	kémiai
+1946	Northrop, John Howard	USA	kémiai
+1946	Stanley, Wendell Meredith	USA	kémiai
+1947	Robinson, Sir Robert 	GB	kémiai
+1948	Tiselius, Arne 	S	kémiai
+1949	Giauque, William Francis 	USA	kémiai
+1950	Diels, Otto	D	kémiai
+1950	Adler, Kurt	D	kémiai
+1951	McMillan, Edwin Mattison 	USA	kémiai
+1951	Seaborg, Glenn Theodore	USA	kémiai
+1952	Martin, Archer	GB	kémiai
+1952	Synge, Richard Laurence Millington	GB	kémiai
+1953	Staudinger, HermannD	kémiai
+1954	Pauling, Linus	USA	kémiai
+1955	du Vigneaud,	USA	kémiai
+1956	Hinshelwood, Sir Cyril Norman	GB	kémiai
+1956	Szemjonov, Nyikolaj Nyikolajevics	SU	kémiai
+1957	Todd, Sir Alexander	GB	kémiai
+1958	Sanger, Frederick	GB	kémiai
+1959	Heyrovský, Jaroslav	CS	kémiai
+1960	Libby, Willard Frank	USA	kémiai
+1961	Calvin, Melvin	USA	kémiai
+1962	Perutz, Max Ferdinand	GB	kémiai
+1962	Kendrew, John Cowdery	GB	kémiai
+1963	Ziegler, Karl	D	kémiai
+1963	Natta, Giulio	I	kémiai
+1964	Crowfoot-Hodgkin, Dorothy	GB	kémiai
+1965	Woodward, Robert Burns	USA	kémiai
+1966	Mulliken, Robert Sanderson	USA	kémiai
+1967	Eigen, Manfred	D	kémiai
+1967	Norrish, Ronald	GB	kémiai
+1967	Porter, George	GB	kémiai
+1968	Onsager, Lars	USA	kémiai
+1969	Barton, Derek Harold Richard	GB	kémiai
+1969	Hassel, Odd	N	kémiai
+1970	Leloir, Luis	RA	kémiai
+1971	Herzberg, Gerhard	CND	kémiai
+1972	Anfinsen, Christian Boehmer	USA	kémiai
+1972	Moore, Stanford	USA	kémiai
+1972	Stein, William Howard	USA	kémiai
+1973	Fischer, Ernst Otto	D	kémiai
+1973	Wilkinson, Geoffrey	GB	kémiai
+1974	Flory, Paul John	USA	kémiai
+1975	Cornforth, John Warcup	AU	kémiai
+1975	Prelog, Vladimir	CH	kémiai
+1976	Lipscomb, William Nunn, ifj.	USA	kémiai
+1977	Prigogine, Ilya	B	kémiai
+1978	Mitchell, Peter Dennis	GB	kémiai
+1979	Brown, Herbert Charles	USA	kémiai
+1979	Wittig, Georg 	D	kémiai
+1980	Berg, Paul 	USA	kémiai
+1980	Gilbert, Walter	USA	kémiai
+1980	Sanger, Frederick	GB	kémiai
+1981	Fukui Kenidzsi	J	kémiai
+1981	Hoffmann, Roald	USA	kémiai
+1982	Klug, Aaron	GB	kémiai
+1983	Taube, Henry	USA	kémiai
+1984	Merrifield, Robert Bruce	USA	kémiai
+1985	Hauptman, Herbert Aaron	USA	kémiai
+1985	Karle, Jerome	USA	kémiai
+1986	Herschbach, Dudley Robert 	USA	kémiai
+1986	Lee, Yuan Ise	USA	kémiai
+1986	Polányi, John Charles	USA	kémiai
+1987	Cram, Donald J. USA	kémiai
+1987	Lehn, Jean-Marie	F	kémiai
+1987	Pedersen, Charles J.	USA	kémiai
+1988	Deisenhofer, Dr. Johann	D	kémiai
+1988	Huber, Robert 	D	kémiai
+1988	Michel, Hartmut	D	kémiai
+1989	Altman, Sidney	USA	kémiai
+1989	Cech, Thomas R.	USA	kémiai
+1990	Corey, Elias James	USA	kémiai
+1990	Elias James Corey	USA	kémiai
+1991	Richard R. Ernst	CH	kémiai
+1993	Kary B. Mullis,	USA	kémiai
+1993	Michael Smith	CND	kémiai
+1993	Rudolph A. Marcus	USA	kémiai
+1994	George a. Olah	USA	kémiai
+1995	Paul J. Crutzen,	NL	kémiai
+1995	Mario J. Molina,	USA	kémiai
+1995	F. Sherwood Rowland	USA	kémiai
+1996	Robert F. Curl Jr.,	USA	kémiai
+1996	Sir Harold Kroto,	GB	kémiai
+1996	Richard E. Smalley	USA	kémiai
+1997	Paul D. Boyer,	USA	kémiai
+1997	ohn E. Walker,	GB	kémiai
+1997	Jens C. Skou	DK	kémiai
+1998	Walter Kohn,	USA	kémiai
+1998	John Pople	GB	kémiai
+1999	Ahmed Zewail	EGYIPT	kémiai
+2000	Alan Heeger,	USA	kémiai
+2000	Alan G. MacDiarmid,	NZ	kémiai
+2000	Hideki Shirakawa	J	kémiai
+2001	William S. Knowles,	USA	kémiai
+2001	Ryoji Noyori,	J	kémiai
+2001	K. Barry Sharpless	USA	kémiai
+2002	John B. Fenn,	USA	kémiai
+2002	Koichi Tanaka,	J	kémiai
+2002	Kurt Wüthrich	CH	kémiai
+2003	Peter Agre,	USA	kémiai
+2003	Roderick MacKinnon	USA	kémiai
+1901	Röntgen, Wilhelm Conrad	D	fizikai
+1902	Lorentz, Hendrik Antoon	NL	fizikai
+1902	Zeeman, Pieter 	NL	fizikai
+1903	Becquerel, Antoine Henri 	F	fizikai
+1903	Curie, Pierre	F	fizikai
+1903	Curie-Sk?odowska, Marie	F	fizikai
+1904	Rayleigh, John William Strutt	GB	fizikai
+1905	Lenard, Philipp	D	fizikai
+1906	Thomson, Joseph John 	GB	fizikai
+1907	Michelson, Albert Abraham	USA	fizikai
+1908	Lippmann, Gabriel	F	fizikai
+1909	Marconi, Guglielmo márki 	I	fizikai
+1909	Braun, Karl Ferdinand	D	fizikai
+1910	van der Waals, Johannes Diderik	NL	fizikai
+1911	Wien, Wilhelm	D	fizikai
+1912	Dalén, Nils Gustaf 	S	fizikai
+1913	Kammerlingh Onnes, Heike 	NL	fizikai
+1914	Laue, Max von	D	fizikai
+1915	Bragg, William Henry 	GB	fizikai
+1915	Bragg, William Lawrence	GB	fizikai
+1916	-		fizikai
+1917	Barkla, Charles Glover 	GB	fizikai
+1918	Planck, Max	D	fizikai
+1919	Stark, Johannes	D	fizikai
+1920	Guillaume, Charles Édouard 	F	fizikai
+1921	Einstein, Albert 	D	fizikai
+1922	Bohr, Niels (Hendrik David)	DK	fizikai
+1923	Millikan, Robert Andrews 	USA	fizikai
+1924	Siegbahn, Karl Manne 	S	fizikai
+1925	Franck, James	D	fizikai
+1925	Hertz, Gustav	D	fizikai
+1926	Perrin, Jean-Baptiste	F	fizikai
+1927	Compton, Arthur Holly	USA	fizikai
+1927	Wilson, Charles Thomson	GB	fizikai
+1928	Richardson, Owen Williams	GB	fizikai
+1929	de Broglie, Louis Victor herceg	F	fizikai
+1930	Ráman, Sir Csandraszekhar Vénkat 	IND	fizikai
+1931	-		fizikai
+1932	Heisenberg, Werner 	D	fizikai
+1933	Schrödinger, Erwin 	A	fizikai
+1933	Dirac, Paul Adrien Maurice 	GB	fizikai
+1934	-		fizikai
+1935	Chadwick, James	GB	fizikai
+1936	Hess, Victor Franz 	A	fizikai
+1936	Anderson, Carl David 	USA	fizikai
+1937	Davisson, Clinton Joseph 	USA	fizikai
+1937	Thomson, George	GB	fizikai
+1938	Fermi, Enrico	I	fizikai
+1939	Lawrence, Ernest Orlando 	USA	fizikai
+1940	-		fizikai
+1941	-		fizikai
+1942	-		fizikai
+1943	Stern, Otto	USA	fizikai
+1944	Rabi, Isidor Isaac 	USA	fizikai
+1945	Pauli, Wolfgang	A	fizikai
+1946	Bridgman, Percy Williams 	USA	fizikai
+1947	Appleton, Sir Edward Victor	GB	fizikai
+1948	Blackett, Patrick Maynard Stuart 	GB	fizikai
+1949	Jukava Hideki	J	fizikai
+1950	Powell, Cecil Frank	GB	fizikai
+1951	Cockcroft, Sir John Douglas	GB	fizikai
+1951	Walton, Ernest 	IRL	fizikai
+1952	Bloch, Felix 	USA	fizikai
+1952	Purcell, Edward Mills	USA	fizikai
+1953	Zernike, Frits 	NL	fizikai
+1954	Born, Max	GB	fizikai
+1954	Bothe, Walter	D	fizikai
+1955	Lamb, Willis Eugene	USA	fizikai
+1955	Kusch, Polykarp	USA	fizikai
+1956	Shockley, William	USA	fizikai
+1956	Bardeen, John	USA	fizikai
+1956	Brattain, Walter Houser	USA	fizikai
+1957	Jang, Csen Ning	VRC	fizikai
+1957	Lee, Tsung-Dao 	VRC	fizikai
+1958	Cserenkov, Pavel Alekszejevics 	SU	fizikai
+1958	Frank, Ilja Mihajlovics	SU	fizikai
+1958	Tamm, Igor Jevgenyevics	SU	fizikai
+1959	Segr?, Emilio	USA	fizikai
+1959	Chamberlain, Owen	USA	fizikai
+1960	Glaser, Donald Arthur	USA	fizikai
+1961	Hofstadter, Robert 	USA	fizikai
+1961	Mössbauer, Rudolf	D	fizikai
+1962	Landau, Lev Davidovics 	SU	fizikai
+1963	Wigner, Eugene 	USA	fizikai
+1963	Goeppert-Mayer, Maria	USA	fizikai
+1963	Jensen, Hans Daniel	D	fizikai
+1964	Townes, Charles Hard 	USA	fizikai
+1964	Baszov, Nyikolaj Gennagyijevics	SU	fizikai
+1964	Prohorov, Alekszandr Mihajlovics 	SU	fizikai
+1965	Tomonaga Sinicsiró 	J	fizikai
+1965	Schwinger, Julian	USA	fizikai
+1965	Feynman, Richard Phillips	USA	fizikai
+1966	Kastler, Alfred	F	fizikai
+1967	Bethe, Hans Albrecht 	USA	fizikai
+1968	Alvarez, Luis Walter 	USA	fizikai
+1969	Gell-Mann, Murray	USA	fizikai
+1970	Alfvén, Hannes 	S	fizikai
+1970	Néel, Louis	F	fizikai
+1971	Gábor, Dennis	GB	fizikai
+1972	Bardeen, John	USA	fizikai
+1972	Cooper, Leon N.	USA	fizikai
+1972	Schrieffer, John Robert	USA	fizikai
+1973	Eszaki Leo 	J	fizikai
+1973	Giaever, Ivar	USA	fizikai
+1973	Josephson, Brian David 	GB	fizikai
+1974	Ryle, Sir Martin 	GB	fizikai
+1974	Hewish, Antony 	GB	fizikai
+1975	Bohr, Aage 	DK	fizikai
+1975	Mottelson, Benjamin	DK	fizikai
+1975	Rainwater, James 	USA	fizikai
+1976	Richter, Burton	USA	fizikai
+1976	Ting, Samuel Csao Csung	USA	fizikai
+1977	Anderson, Philipp Warren 	USA	fizikai
+1977	Mott, Sir Nevill Francis 	GB	fizikai
+1977	Van Vleck, John Hasbrouck	USA	fizikai
+1978	Kapica, Pjotr Leonyidovics 	SU	fizikai
+1978	Penzias, Arno Allen	USA	fizikai
+1978	Wilson, Robert W.	USA	fizikai
+1979	Glashow, Sheldon Lee 	USA	fizikai
+1979	Salam, Abdus 	PAK	fizikai
+1979	Weinberg, Steven 	USA	fizikai
+1980	Cronin, James Watson 	USA	fizikai
+1980	Fitch, Val Logsdan 	USA	fizikai
+1981	Bloembergen, Nicolaas	USA	fizikai
+1981	Schawlow, Arthur Leonard 	USA	fizikai
+1981	Siegbahn, Kai Manne	S	fizikai
+1982	Wilson, Kenneth G. 	USA	fizikai
+1983	Csandraszekar, Szubramaniam	USA	fizikai
+1983	Fowler, William A. 	USA	fizikai
+1984	Rubbia, Carlo	I	fizikai
+1984	van der Meer, Simon	NL	fizikai
+1985	Klitzing, Klaus von	D	fizikai
+1986	Ruska, Ernst 	D	fizikai
+1986	Binnig, Gerd 	D	fizikai
+1986	Rohrer, Heinrich 	CH	fizikai
+1987	Bednorz, Johannes Georg	D	fizikai
+1987	Müller, Karl Alex	CH	fizikai
+1988	Ledermann, Leon	USA	fizikai
+1988	Schwartz, Melvin 	USA	fizikai
+1988	Steinberger, Jack	USA	fizikai
+1989	Dehmelt, Hans G. 	USA	fizikai
+1989	Paul, Wolfgang 	D	fizikai
+1989	Ramsey, Norman F.	USA	fizikai
+1990	Friedman, Jerome I.	USA	fizikai
+1990	Kendall, Henry W.	USA	fizikai
+1990	Taylor, Richard E. 	USA	fizikai
+1991	Pierre-Gilles de Gennes	F	fizikai
+1992	Georges Charpak	F	fizikai
+1993	Russell A. Hulse, 	USA	fizikai
+1993	Joseph H. Taylor Jr.	USA	fizikai
+1994	Bertram N. Brockhouse, 	CND	fizikai
+1994	Clifford G. Shull	USA	fizikai
+1995	Martin L. Perl, 	USA	fizikai
+1995	Frederick Reines	USA	fizikai
+1996	David M. Lee, 	USA	fizikai
+1996	Douglas D. Osheroff, 	USA	fizikai
+1996	Robert C. Richardson	USA	fizikai
+1997	Steven Chu, 	USA	fizikai
+1997	Claude Cohen-Tannoudji, 	F	fizikai
+1997	William D. Phillips	USA	fizikai
+1998	Robert B. Laughlin, 	USA	fizikai
+1998	Horst L. Störmer, 	D	fizikai
+1998	Daniel C. Tsui	USA	fizikai
+1999	Gerardus 't Hooft, 	NL	fizikai
+1999	Martinus J.G. Veltman	NL	fizikai
+2000	Zhores I. Alferov, 	SU	fizikai
+2000	Herbert Kroemer, 	D	fizikai
+2000	Jack S. Kilby	USA	fizikai
+2001	Eric A. Cornell	USA	fizikai
+2001	Wolfgang Ketterle,	D	fizikai
+2001	Carl E. Wieman	USA	fizikai
+2002	Raymond Davis Jr., 	USA	fizikai
+2002	Masatoshi Koshiba, 	J	fizikai
+2002	Riccardo Giacconi	USA	fizikai
+2003	Alexei A. Abrikosov, 	SU	fizikai
+2003	Vitaly L. Ginzburg, 	SU	fizikai
+2003	Anthony J. Leggett	GB	fizikai
+1901	Behring, Emil Adolf von	D	orvosi
+1902	Ross, Sir Ronald 	GB	orvosi
+1903	Finsen, Niels Ryberg 	DK	orvosi
+1904	Pavlov, Ivan Petrovics 	SU	orvosi
+1905	Koch, Robert 	D	orvosi
+1906	Golgi, Camillo 	I	orvosi
+1906	Ramon y Cajal, Santiago	E	orvosi
+1907	Laveran, Charles Louis Alphonse	F	orvosi
+1908	Ehrlich, Paul	D	orvosi
+1908	Mecsnyikov, Ilja Iljics	SU	orvosi
+1909	Kocher, Emil Theodor 	CH	orvosi
+1910	Kossel, Albrecht 	D	orvosi
+1911	Gullstrand, Allvar 	S	orvosi
+1912	Carrel, Alexis 	USA	orvosi
+1913	Richet, Charles Robert 	F	orvosi
+1914	Bárány Róbert	S	orvosi
+1915	-		orvosi
+1916	-		orvosi
+1917	-		orvosi
+1918	-		orvosi
+1919	Bordet, Jules Jean Baptiste Vincent	B	orvosi
+1920	Krogh, Schack August Steenburger 	DK	orvosi
+1921	-		orvosi
+1922	Hill, Archibald Vivian 	GB	orvosi
+1922	Meyerhof, Otto Fritz 	USA	orvosi
+1923	Banting, Frederick Grant 	CND	orvosi
+1923	MacLeod, John James Richard	USA	orvosi
+1924	Einthoven, Willem	NL	orvosi
+1925	-		orvosi
+1926	Fibiger, Johannes Andreas Grib 	DK	orvosi
+1927	-		orvosi
+1928	Nicolle, Charles Jules Henri 	F	orvosi
+1929	Eijkman, Christiaan	NL	orvosi
+1929	Hopkins, Sir Frederick Gowland 	GB	orvosi
+1930	Landsteiner, Karl	USA	orvosi
+1931	Warburg, Otto Heinrich 	D	orvosi
+1932	Adrian, lord Edgar Douglas 	GB	orvosi
+1932	Sherrington, Sir Charles Scott 	GB	orvosi
+1933	Morgan, Thomas Hunt	USA	orvosi
+1934	Minot, George Richards 	USA	orvosi
+1934	Murphy, William Parry	USA	orvosi
+1934	Whipple, George Hoyt 	USA	orvosi
+1935	Spemann, Hans	D	orvosi
+1936	Dale, Henry Hallett	GB	orvosi
+1936	Loewi, Otto	USA	orvosi
+1938	Heymans, Comille Jean François 	B	orvosi
+1939	Domagk, Gerhard	D	orvosi
+1940	-		orvosi
+1941	-		orvosi
+1942	-		orvosi
+1943	Dam, Carl Peter Henrik 	DK	orvosi
+1943	Doisy, Edward Adalbert 	USA	orvosi
+1944	Gasser, Herbert Spencer	USA	orvosi
+1944	Erlanger, Joseph 	USA	orvosi
+1945	Chain, Sir Ernst Boris 	GB	orvosi
+1945	Fleming, Sir Alexander 	GB	orvosi
+1945	Florey, Sir Howard Walter	GB	orvosi
+1946	Muller, Hermann Joseph 	USA	orvosi
+1947	Cori, Carl Ferdinand 	USA	orvosi
+1947	Cori, Gerty Theresa Radnitz	USA	orvosi
+1947	Houssay, Bernardo Alberto	RA	orvosi
+1948	Müller, Paul Hermann 	CH	orvosi
+1949	Hess, Walter Rudolf	CH	orvosi
+1949	Moniz, Antonio Caetano de Abren Freire Egas	P	orvosi
+1950	Hench, Philip Showalter	USA	orvosi
+1950	Kendall, Edward Calvin 	USA	orvosi
+1950	Reichstein, Tadeus 	CH	orvosi
+1951	Theiler, Max 	USA	orvosi
+1952	Waksman, Selman Abraham	USA	orvosi
+1953	Krebs, Hans Adolf	GB	orvosi
+1953	Lipmann, Fritz Albert	USA	orvosi
+1954	Enders, John Franklin	USA	orvosi
+1954	Weller, Thomas Huckle	USA	orvosi
+1954	Robbins, Frederick Chapman 	USA	orvosi
+1955	Theorell, Axel Hugo Theodor	S	orvosi
+1956	Cournand, André Frédéric 	USA	orvosi
+1956	Richards Jr., Dickinson Woodruff 	USA	orvosi
+1956	Forssmann, Werner Theodor Otto 	D	orvosi
+1957	Bovet, Daniel	I	orvosi
+1958	Tatum, Edward Lawrie 	USA	orvosi
+1958	Beadle, George Wells 	USA	orvosi
+1958	Lederberg, Joshua	USA	orvosi
+1959	Ochoa, Severo	USA	orvosi
+1959	Kornberg, Arthur 	USA	orvosi
+1960	Burnet, Sir Frank MacFarlane 	AU	orvosi
+1960	Medawar, Sir Peter Brian 	GB	orvosi
+1961	Békésy György	USA	orvosi
+1962	Crick, Francis Harry Compton 	GB	orvosi
+1962	Watson, James Dewey	USA	orvosi
+1962	Wilkins, Maurice Hugh Frederick	GB	orvosi
+1963	Eccles, Sir John Carew 	AU	orvosi
+1963	Huxley, Andrew Fielding	GB	orvosi
+1963	Hodgkin, Alan Lloyd	GB	orvosi
+1964	Bloch, Konrad Emil 	USA	orvosi
+1964	Lynen, Feodor	D	orvosi
+1965	Jacob, François	F	orvosi
+1965	Lwoff, André 	F	orvosi
+1965	Monod, Jacques 	F	orvosi
+1966	Rous, Francis Peyton 	USA	orvosi
+1966	Huggins, Charles Brenton 	USA	orvosi
+1967	Wald, George 	USA	orvosi
+1967	Granit, Ragnar Arthur	S	orvosi
+1967	Hartline, Haldan Keffer	USA	orvosi
+1968	Holley, Robert William 	USA	orvosi
+1968	Khorana, Har Gobind	USA	orvosi
+1968	Nirenberg, Marshall Warren 	USA	orvosi
+1969	Luria, Salvador Edward 	USA	orvosi
+1969	Hershey, Alfred Day	USA	orvosi
+1969	Delbrück, Max	USA	orvosi
+1970	Katz, Sir Bernard	GB	orvosi
+1970	Euler, Ulf von 	S	orvosi
+1970	Axelrod, Julius	USA	orvosi
+1971	Sutherland, Earl Wilbur	USA	orvosi
+1972	Edelman, Gerald Maurice	USA	orvosi
+1973	Frisch, Karl von 	A	orvosi
+1973	Lorenz, Konrad 	A	orvosi
+1973	Porter, Rodney Robert	GB	orvosi
+1973	Tinbergen, Nikolaas	GB	orvosi
+1974	Duve, Christian Penéde 	B	orvosi
+1974	Claude, Albert 	USA	orvosi
+1974	Palade, George Emil	USA	orvosi
+1975	Temin, Howard Martin 	USA	orvosi
+1975	Dulbecco, Renato 	USA	orvosi
+1975	Baltimore, David 	USA	orvosi
+1976	Blumberg, Baruch Samuel	USA	orvosi
+1976	Gajdusek, Daniel Carleton	USA	orvosi
+1977	Yalow, Sussman Rosalyn 	USA	orvosi
+1977	Schally, Andrew Victor 	GB	orvosi
+1977	Guillemin, Roger Charles Louis 	USA	orvosi
+1978	Arber, Werner	CH	orvosi
+1978	Smith, Hamilton	USA	orvosi
+1978	Nathans, Daniel	USA	orvosi
+1979	Cormack, Allan Macleod 	USA	orvosi
+1979	Hounsfield, Godfrey Newbold	GB	orvosi
+1980	Snell, George David	USA	orvosi
+1980	Dausset, Jean France 	F	orvosi
+1980	Benacerraf, Baruj	USA	orvosi
+1981	Hubel, David Hunter	USA	orvosi
+1981	Sperry, Roger Wolcott	USA	orvosi
+1981	Wiesel, Torsten Nils 	USA	orvosi
+1982	Vane, John 	GB	orvosi
+1982	Bergström, Sune	S	orvosi
+1982	Samuelsson, Bengt	S	orvosi
+1983	McClintock, Barbara	USA	orvosi
+1984	Jerne, Niels 	DK	orvosi
+1984	Köhler, Georg	CH	orvosi
+1984	Milstein, César	GB	orvosi
+1985	Brown, Michael 	USA	orvosi
+1985	Goldstein, Joseph	USA	orvosi
+1986	Levi-Montalcini, Rita	I	orvosi
+1986	Cohen, Stanley 	USA	orvosi
+1987	Tonegava Szuszumu	J	orvosi
+1988	Black, George	GB	orvosi
+1988	Elion, Gertrude	USA	orvosi
+1988	Hitchings, George	USA	orvosi
+1989	Varmus, Harold E.	USA	orvosi
+1989	Bishop, Michael J. 	USA	orvosi
+1990	Joseph E. Murray,	USA	orvosi
+1990	E. Donnall Thomas	USA	orvosi
+1991	Erwin Neher,	D	orvosi
+1991	Bert Sakmann	D	orvosi
+1992	Edmond H. Fischer,	CH	orvosi
+1992	Edwin G. Krebs	USA	orvosi
+1993	Richard J. Roberts,	GB	orvosi
+1993	Phillip A. Sharp	USA	orvosi
+1994	Alfred G. Gilman,	USA	orvosi
+1994	Martin Rodbell	USA	orvosi
+1995	Edward B. Lewis,	USA	orvosi
+1995	Christiane Nüsslein-Volhard,	D	orvosi
+1995	Eric F. Wieschaus	USA	orvosi
+1996	Peter C. Doherty,	AU	orvosi
+1996	Rolf M. Zinkernagel	CH	orvosi
+1997	Stanley B. Prusiner	USA	orvosi
+1998	Robert F. Furchgott,	USA	orvosi
+1998	Louis J. Ignarro,	USA	orvosi
+1998	Ferid Murad	USA	orvosi
+1999	Günter Blobel	USA	orvosi
+2000	Arvid Carlsson,	SE	orvosi
+2000	Paul Greengard,	USA	orvosi
+2000	Eric R. Kandel	USA	orvosi
+2001	Leland H. Hartwell,	USA	orvosi
+2001	Tim Hunt,	GB	orvosi
+2001	Sir Paul Nurse	GB	orvosi
+2002	Sydney Brenner,	GB	orvosi
+2002	H. Robert Horvitz,	USA	orvosi
+2002	John E. Sulston	GB	orvosi
+2003	Paul C. Lauterbur,	USA	orvosi
+2003	Sir Peter Mansfield	GB	orvosi
+1901	Sully-Prudhomme, René François Arnand	F	irodalmi
+1902	Mommsen, Theodor 	D	irodalmi
+1903	Bjornson, Bjornstjerne 	N	irodalmi
+1904	Mistral, Frédéric	F	irodalmi
+1904	Echegaray y Eizaguirre, José 	E	irodalmi
+1905	Sienkiewicz, Henryk	PL	irodalmi
+1906	Carducci, Giosué 	I	irodalmi
+1907	Kipling, Joseph Rudyard	GB	irodalmi
+1908	-		irodalmi
+1909	Lagerlöf, Selma	S	irodalmi
+1910	Heyse, Paul	D	irodalmi
+1911	Maeterlinck, Maurice 	B	irodalmi
+1912	Hauptmann, Gerhart 	D	irodalmi
+1913	Tagore, Rabindranath 	IND	irodalmi
+1914	-		irodalmi
+1915	Rolland, Romain	F	irodalmi
+1916	Heidenstam, Verner von 	S	irodalmi
+1917	Gjellerup, Karl Adolph 	DK	irodalmi
+1917	Pontopiddan, Henrik	DK	irodalmi
+1918	-		irodalmi
+1919	Spitteler, Carl	CH	irodalmi
+1920	Hamsun, Knut 	N	irodalmi
+1921	France, Anatole	F	irodalmi
+1922	Benavente, Jacinto 	E	irodalmi
+1923	Yeats, William Butler	IRL	irodalmi
+1924	Reymont, W?adys?aw Stanis?aw 	PL	irodalmi
+1925	Shaw, Bernard	GB	irodalmi
+1926	Deledda, Grazia	I	irodalmi
+1927	Bergson, Henri 	F	irodalmi
+1928	Undset, Sigrid 	N	irodalmi
+1929	Mann, Thomas 	D	irodalmi
+1930	Lewis, Sinclair	USA	irodalmi
+1931	Karlfeldt, Erik Axel 	S	irodalmi
+1932	Galsworthy, John 	GB	irodalmi
+1933	Bunyin, Ivan Alekszejevics 	SU	irodalmi
+1934	Pirandello, Luigi	I	irodalmi
+1935	-		irodalmi
+1936	O'Neill, Eugene Gladstone	USA	irodalmi
+1937	Martin du Gard, Roger	F	irodalmi
+1938	Buck, Pearl	USA	irodalmi
+1939	Sillanpää, Frans Eemil 	SF	irodalmi
+1940	-		irodalmi
+1941	-		irodalmi
+1942	-		irodalmi
+1943	-		irodalmi
+1944	Jensen, Johannes Wilhelm 	DK	irodalmi
+1945	Mistral, Gabriela	RCH	irodalmi
+1946	Hesse, Hermann 	D	irodalmi
+1947	Gide, André	F	irodalmi
+1948	Eliot, Thomas Stearns	GB	irodalmi
+1949	-		irodalmi
+1950	Russel, Earl Bertrand William	GB	irodalmi
+1950	Faulkner, William	USA	irodalmi
+1951	Lagerkvist, Pär Fabian 	S	irodalmi
+1952	-		irodalmi
+1953	Churchill, Sir Winston Leonard Spencer 	GB	irodalmi
+1954	Hemingway, Ernest	USA	irodalmi
+1955	Laxness, Halldór 	IL	irodalmi
+1956	Jiménez, Juan Ramón	E	irodalmi
+1957	Camus, Albert	F	irodalmi
+1958	Paszternak, Borisz Leonyidovics	SU	irodalmi
+1959	Quasimodo, Salvatore 	I	irodalmi
+1960	Saint-John Perse 	F	irodalmi
+1961	Andri?, Ivo	YU	irodalmi
+1962	Mauriac, François	F	irodalmi
+1962	Steinbeck, John	USA	irodalmi
+1963	Szeferisz, Jorgasz 	GR	irodalmi
+1964	Sartre, Jean Paul	F	irodalmi
+1965	Solohov, Mihail Alekszandrovics	SU	irodalmi
+1966	Agnon, Smuel Joszéf	?	irodalmi
+1966	Sachs, Nelly 	D	irodalmi
+1967	Asturias, Miguel Ángel 	GCA	irodalmi
+1968	Kavabata Jaszunari 	J	irodalmi
+1969	Beckett, Samuel Barclay	GB	irodalmi
+1970	Szolzsenyicin, Alekszandr Iszajevics 	SU	irodalmi
+1971	Neruda, Pablo	RCH	irodalmi
+1972	Böll, Heinrich 	D	irodalmi
+1973	White, Patrick 	AU	irodalmi
+1974	Johnson, Eyvund	S	irodalmi
+1974	Martinson, Harry 	S	irodalmi
+1975	Montale, Eugenio 	I	irodalmi
+1976	Bellow, Saul 	USA	irodalmi
+1977	Aleixandre, Vicente	E	irodalmi
+1978	Singer, Isaac Bashevis 	USA	irodalmi
+1979	Elitisz, Odisszeasz	GR	irodalmi
+1980	Mi?osz, Czes?aw	USA	irodalmi
+1981	Canetti, Elias 	A	irodalmi
+1982	García Márquez, Gabriel	CO	irodalmi
+1983	Golding, William Gerald	GB	irodalmi
+1984	Seifert, Jaroslav	CS	irodalmi
+1985	Simon, Claude	F	irodalmi
+1986	Soyinka, Wole	WAN	irodalmi
+1987	Brodsky, Joseph	SU	irodalmi
+1988	Mahfúz, Nagib	Egy. G	irodalmi
+1989	Cela, Camilo José	E	irodalmi
+1990	Octavio Paz	MEX	irodalmi
+1991	Nadine Gordimer	D-AFR	irodalmi
+1992	Derek Walcott	ST-LUCA	irodalmi
+1993	Toni Morrison	USA	irodalmi
+1994	Kenzaburo Oe	J	irodalmi
+1995	Seamus Heaney	IRL	irodalmi
+1996	Wislawa Szymborska	PL	irodalmi
+1997	Dario Fo	I	irodalmi
+1998	José Saramago	P	irodalmi
+1999	Günter Grass	D	irodalmi
+2000	Gao Xingjian	F	irodalmi
+2001	V.S. Naipaul	GB	irodalmi
+2003	J.M. Coetzee	D-AFR	irodalmi
+1901	Passy, Frédéric	F	béke
+1901	Dunant, Henri	CH	béke
+1902	Gobat, Charles Albert	CH	béke
+1902	Ducommun, Élie 	CH	béke
+1903	Cremer, Sir William Randal 	GB	béke
+1904	Nemzetközi Jogi Intézet	B	béke
+1905	Suttner, Bertha von	A	béke
+1906	Roosevelt, Theodore	USA	béke
+1907	Moneta, Ernesto Teodoro	I	béke
+1908	Bajer, Fredrik 	DK	béke
+1908	Arnoldson, Klas Pontus 	S	béke
+1909	Beernaert, Auguste Marie François	B	béke
+1909	D'Estournelles, De Constant De Rebecque	F	béke
+1910	Berni Állandó Nemzetközi Békeiroda 	CH	béke
+1911	Asser, Tobias Michael Carel	NL	béke
+1911	Fried, Alfred Hermann	A	béke
+1912	Root, Elihu	USA	béke
+1913	La Fontaine, Henri 	B	béke
+1914	-		béke
+1915	-		béke
+1916	-		béke
+1917	Nemzetközi Vöröskereszt	CH	béke
+1918	-		béke
+1919	Wilson, Thomas Woodrow 	USA	béke
+1920	Bourgeois, Léon Victor Auguste 	F	béke
+1921	Lange, Christian Lous	N	béke
+1921	Branting, Karl Hjalmar 	S	béke
+1922	Nansen, Fridtjof 	N	béke
+1923	-		béke
+1924	-		béke
+1925	Dawes, Charles Gates 	USA	béke
+1925	Chamberlain, Sir Joseph Austen 	GB	béke
+1926	Briand, Aristide 	F	béke
+1926	Stresemann, Gustav 	D	béke
+1927	Quidde, Ludwig 	D	béke
+1927	Buisson, Ferdinand 	F	béke
+1928	-		béke
+1929	Kellogg, Frank Billing 	USA	béke
+1930	Söderblom, Lars Olof Nathan	S	béke
+1931	Addams, Jane 	USA	béke
+1931	Butler, Nicolas Murray 	USA	béke
+1932	-		béke
+1933	Angell, Sir Norman Lane	GB	béke
+1934	Henderson, Arthur	GB	béke
+1935	Ossietzky, Carl von	D	béke
+1936	Saavedra Lamas, Carlos 	RA	béke
+1937	Chelwood, Viscount Cecil of	GB	béke
+1938	Hansen Nemzetközi Menekültügyi Hivatal 	CH	béke
+1939	-		béke
+1940	-		béke
+1941	-		béke
+1942	-		béke
+1943	-		béke
+1944	Nemzetközi Vöröskereszt	CH	béke
+1945	Hull, Cordell	USA	béke
+1946	Mott, John Raleigh 	USA	béke
+1946	Balch, Emily Greene	USA	béke
+1947	Quaker-szervezet 	GB	béke
+1948	-		béke
+1949	Boyd-Orr of Brechim, Lord John 	GB	béke
+1950	Bunche, Ralph Johnson	USA	béke
+1951	Jouhaux, Léon	F	béke
+1952	Schweitzer, Albert 	D	béke
+1953	Marshall, George Catlett 	USA	béke
+1954	ENSZ Menekültügyi Szervezete 	-	béke
+1955	-		béke
+1956	-		béke
+1957	Pearson, Lester Bowles 	CND	béke
+1958	Pire, Georges	B	béke
+1959	Noël-Baker, Philip 	GB	béke
+1960	Luthuli, Albert John 	ZA	béke
+1961	Hammarskjöld, Dag Hjalmar Agne Carl	S	béke
+1962	Pauling, Linus 	USA	béke
+1963	Nemzetközi Vöröskereszt	CH	béke
+1964	King, Martin Luther	USA	béke
+1965	UNICEF 	-	béke
+1966	-		béke
+1967	-		béke
+1968	Cassin, René 	F	béke
+1969	Nemzetközi Munkaügyi Szervezet (ILO) 	CH	béke
+1970	Borlaug, Norman Ernest 	USA	béke
+1971	Brandt, Willy	D	béke
+1972	-		béke
+1973	Le Duc Tho 	VN	béke
+1973	Kissinger, Henry 	USA	béke
+1974	Szato Eiszaku	J	béke
+1974	MacBride, Séan 	IRL	béke
+1975	Szaharov, Andrej Dmitrijevics	SU	béke
+1976	Corrigan, Mairead	GB	béke
+1976	Williams, Betty	GB	béke
+1977	Amnesty International	-	béke
+1978	Begin, Menáhem 	IL	béke
+1978	Szadat, Anvar el-	ET	béke
+1979	Teréz anya 	IND	béke
+1980	Perez Esquiel, Adolfo	RA	béke
+1981	ENSZ Menekültügyi Szervezete 	-	béke
+1982	Myrdal, Alva 	S	béke
+1982	García Robles, Alfonso 	MEX	béke
+1983	Wa??sa, Lech 	PL	béke
+1984	Tutu, Desmond	ZA	béke
+1985	Orvosmozgalom a Nukleáris Háború Megel?zéséért 		béke
+1986	Wiesel, Elie 	RO	béke
+1987	Sanchez, Oscar Arias 	CR	béke
+1988	ENSZ Békefenntartó Er?k	-	béke
+1989	Dalai láma 	TIBET	béke
+1990	Mikhail Gorbachev	SU	béke
+1991	Aung San Suu Kyi	BURMA	béke
+1992	Rigoberta Menchú Tum	GUATEMALA	béke
+1993	Nelson Mandela,	D-AFR	béke
+1993	F.W. de Klerk	D-AFR	béke
+1994	Yasser Arafat,	PALESTIN	béke
+1994	Shimon Peres,	IL	béke
+1994	Yitzhak Rabin	IL	béke
+1995	Joseph Rotblat, 	GB	béke
+1995	Pugwash Conferences on Science and World Affairs	CND	béke
+1996	Carlos Filipe Ximenes Belo,	K-TIMOR	béke
+1996	José Ramos-Horta	K-TIMOR	béke
+1997	International Campaign to Ban Landmines, 	USA	béke
+1997	Jody Williams	USA	béke
+1998	John Hume, 	GB	béke
+1998	David Trimble	GB	béke
+1999	Médecins Sans Fronti?res	B	béke
+2000	Kim Dae-jung	D-KOREA	béke
+2001	United Nations, Kofi Annan	-	béke
+2002	Jimmy Carter	USA	béke
+2003	Shirin Ebadi	IRAN	béke
+1969	Frisch, Ragner 	N	közgazd
+1969	Tinbergen, Jan 	NL	közgazd
+1970	Samuelson, Paul Anthony	USA	közgazd
+1971	Kuznets, Simon Smith 	USA	közgazd
+1972	Arrow, Kenneth Joseph	USA	közgazd
+1972	Hicks, Sir John Richard	GB	közgazd
+1973	Leontief, Wassily	USA	közgazd
+1974	Hayek, Friedrich August von	GB	közgazd
+1974	Myrdal, Gunnar 	S	közgazd
+1975	Koopmans, Tjalling Charles 	USA	közgazd
+1975	Kantorovics, Leonyid Vitaljevics 	SU	közgazd
+1976	Friedman, Milton 	USA	közgazd
+1977	Meade, Sir James Edward	GB	közgazd
+1977	Ohlin, Bertil	S	közgazd
+1978	Simon, Herbert A.	USA	közgazd
+1979	Lewis, Sir Arthur	GB	közgazd
+1979	Schultz, Theodore William	USA	közgazd
+1980	Klein, Lawrence Robert 	USA	közgazd
+1981	Tobin, James 	USA	közgazd
+1982	Stigler, George	USA	közgazd
+1983	-		közgazd
+1984	Stone, Sir Richard 	GB	közgazd
+1985	Modigliani, Franco 	USA	közgazd
+1986	Buchanan, James McGill 	USA	közgazd
+1987	Solow, Robert M. 	USA	közgazd
+1988	Allais, Maurice	F	közgazd
+1989	Haavelmo, Tryggve	N	közgazd
+1990	Harry M. Markowitz,	USA	közgazd
+1990	Merton H. Miller,	USA	közgazd
+1990	William F. Sharpe	USA	közgazd
+1991	Ronald H. Coase	GB	közgazd
+1992	Gary S. Becker	USA	közgazd
+1993	Robert W. Fogel,	USA	közgazd
+1993	Douglass C. North	USA	közgazd
+1994	John C. Harsanyi,	USA	közgazd
+1994	John F. Nash Jr.,	USA	közgazd
+1994	Reinhard Selten	D	közgazd
+1995	Robert E. Lucas Jr.	USA	közgazd
+1996	James A. Mirrlees,	GB	közgazd
+1996	William Vickrey	USA	közgazd
+1997	Robert C. Merton,	USA	közgazd
+1997	Myron S. Scholes	USA	közgazd
+1998	Amartya Sen	INDIA	közgazd
+1999	Robert A. Mundell	CND	közgazd
+2000	James J. Heckman,	USA	közgazd
+2000	Daniel L. McFadden	USA	közgazd
+2001	George A. Akerlof,	USA	közgazd
+2001	Michael Spence,	USA	közgazd
+2001	Joseph E. Stiglitz	USA	közgazd
+2002	Daniel Kahneman,	IL	közgazd
+2002	Vernon L. Smith	USA	közgazd
+2003	Robert F. Engle,	USA	közgazd
+2003	Clive W.J. Granger	GB	közgazd
