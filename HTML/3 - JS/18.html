@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script language="JavaScript">
+        let h = 8, m = 30, s = 1;
+
+        while (h < 18 || (h === 18 && m === 0)) {
+            console.log(`${s}. ${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`);
+            if (m >= 60) {
+                m = m - 60;
+                h++;
+            }
+            console.log(`- ${String(h).padStart(2, '0')}:${String(m += 45).padStart(2, '0')}`);
+            m += 10;
+
+            s++;
+        }
+    </script>
+
+</body>
+
+</html>
