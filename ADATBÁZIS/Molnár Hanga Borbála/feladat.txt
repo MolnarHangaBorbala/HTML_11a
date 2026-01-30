@@ -1,0 +1,36 @@
+1)
+CREATE DATABASE napsutes
+DEFAULT CHARACTER SET='utf8'
+COLLATE utf8_hungarian_ci
+
+2)
+Ctrl+V
+
+3)
+UPDATE regiok
+SET regiok.regioNev='Észak-Írország'
+WHERE regiok.regioNev='Észak Írország'
+
+4)
+SELECT COUNT(meresek.id) AS meresekszama,
+       AVG(meresek.perc) AS atlag
+FROM meresek
+
+5)
+SELECT meresek.ev, SUM(meresek.perc) / 60 AS orak
+FROM meresek INNER JOIN regiok on meresek.regioId=regiok.ID
+WHERE regiokNev='Anglia'
+GROUP BY meresek.ev
+HAVING meresek.ev BETWEEN 1990 AND 2000
+ORDER BY meresek.ev DESC
+
+6)
+SELECT meresek.ev, meresek.perc, regiok.regioNev AS terulet
+FROM meresek INNER JOIN regiok on meresek.regioId=regiok.ID
+WHERE meresek.ho=2 AND meresek.perc > 6000
+ORDER BY meresek.perc DESC
+
+7) Melyik területen összesen mennyi volt a napsütéses órák száma?
+SELECT regiok.regioNev, SUM(meresek.perc) / 60 AS orak
+FROM meresek INNER JOIN regiok on meresek.regioId=regiok.ID
+GROUP BY regio.regioNev
