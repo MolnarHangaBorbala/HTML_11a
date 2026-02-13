@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //1
+        var x = 10;
+        console.log(x);
+
+        function testVar() {
+            var y = 20;
+            console.log(y);
+        }
+
+        testVar();
+
+        //2
+        console.log(z);
+        var z = 10;
+        console.log(z);
+
+        //3
+        let a = 10;
+        console.log(a);
+
+        {
+            let b = 20;
+            console.log(b);
+        }
+
+        //4
+        let c = 30;
+        console.log(c);
+
+        //5
+        const d = 40;
+        console.log(d);
+
+        //6
+        const obj = { name: "Anna" };
+        obj.name = "Bob";
+        console.log(obj.name);
+
+        const arr = [1, 2, 3];
+        arr.push(4);
+        console.log(arr)
+
+        //7
+        var globalVar = 'I am global';
+        function testGlobal() {
+            console.log(globalVar);
+        }
+        testGlobal();
+        console.log(globalVar);
+
+        //8
+        function testFunctionScope() {
+            var functionVar = 'I am local';
+            console.log(functionVar);
+        }
+        testFunctionScope();
+
+        //-------------------------------
+        let homerseklet = 17;
+        if (homerseklet > 20) {
+            console.log("Meleg van.");
+        } else if (homerseklet < 10) {
+            console.log("Nagyon hideg van.");
+        } else {
+            console.log("Az időjárás kellemes.");
+        }
+
+        // ÉS &&
+        let e = 5;
+        if (a < 10 && a > 0) {
+            console.log("Pozitív szám ami kisebb mint tíz.");
+        }
+
+        // VAGY || 
+        let f = 5;
+        if (a < 10 || a > 0) {
+            console.log("Pozitív szám ami kisebb mint tíz.");
+        }
+
+        // Igazségtábla
+        let g = false; //0
+        let h = true; //1
+
+        let es = g && h;
+        let vagy = g || h;
+        let kizarovagy = g ^ h;
+        console.log(g, h, es, vagy, kizarovagy);
+
+        // Switch
+        let nap = 7;
+
+        switch (nap) {
+            case 1:
+                console.log("Hétfő");
+                break;
+            case 2:
+                console.log("Kedd");
+                break;
+            case 3:
+                console.log("Szerda");
+                break;
+            case 4:
+                console.log("Csütörtök");
+                break;
+            case 5:
+                console.log("Péntek");
+                break;
+            case 6:
+                console.log("Szombat");
+                break;
+            case 7:
+                console.log("Vasárnap");
+                break;
+            default:
+                console.log("Ismeretlen nap")
+        }
+
+        //Példa
+        console.log(5 == "5"); //True
+        console.log(5 === "5"); //False
+
+        console.log(null == undefined); //True
+        console.log(null === undefined); //False
+
+        console.log(true == 1); //True
+        console.log(true === 1); //False
+
+        // Ciklusok ---------------------
+        // For
+        for (let i = 0; i < 5; i++) {
+            console.log("A számláló értéke: " + i);
+        }
+
+        // While
+        let i = 0;
+        while (i < 5) {
+            console.log("A számláló értéke: " + i);
+            i++
+        }
+
+        // Do While
+        let l = 0;
+        do {
+            console.log("A számláló értéke: " + l);
+            i++;
+        }
+        while (l < 5);
+
+        //For Of
+        let szamok = [1, 2, 3, 4, 5];
+
+        for (let szam of szamok) {
+            console.log(szam);
+        }
+
+        //For In
+        let auto = { marka: "VW", modell: "Golf III", ev: 1998 };
+
+        for (let kulcs of auto) {
+            console.log(kulcs + ": " + auto[kulcs]);
+        }
+
+        //FOrEach
+        let szamok1 = [1, 2, 3, 4, 5];
+
+        szamok.forEach(function(elem, index) {
+            console.log('A ${index}. elem értéke: ${elem}')
+        })
+    </script>
+</body>
+
+</html>
