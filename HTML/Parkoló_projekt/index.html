@@ -30,9 +30,31 @@
 
                     <label>Jármű típusa:</label>
                     <select id="jarmu" required>
+                        <!-- Személy- és kis járművek -->
                         <option value="1">Személyautó</option>
-                        <option value="1.5">Teherautó</option>
-                        <option value="1.2">Kisbusz</option>
+                        <option value="1.1">Elektromos autó</option>
+                        <option value="1.2">SUV / Terepjáró</option>
+                        <option value="1.3">Kisbusz</option>
+                        <option value="0.5">Motorkerékpár</option>
+                        <option value="0.6">Robogó</option>
+                        <option value="0.8">Quad</option>
+
+                        <!-- Közepes méretű járművek -->
+                        <option value="1.4">Lakóautó (kisebb)</option>
+                        <option value="1.5">Teherautó (kisebb)</option>
+                        <option value="1.6">Utánfutós autó</option>
+                        <option value="1.8">Lakóautó (nagyobb)</option>
+
+                        <!-- Nagy méretű járművek -->
+                        <option value="2">Teherautó (nagy)</option>
+                        <option value="2.5">Kamion</option>
+                        <option value="3">Autóbusz</option>
+
+                        <!-- Speciális / extrák -->
+                        <option value="0.7">Segway</option>
+                        <option value="1.3">Pickup</option>
+                        <option value="1.7">Kisteherautó</option>
+                        <option value="2.2">Darus teherautó</option>
                     </select>
 
                     <label>Parkolási idő:</label>
@@ -48,7 +70,7 @@
 
                 </fieldset>
 
-                <button type="submit" class="btn">Számítás</button>
+                <button type="submit" class="btn">Nyomtatás</button>
 
             </form>
         </div>
@@ -72,10 +94,14 @@
                                         <div id="ticket-text" class="ticket-text">
                                             <h3>PARKOLÓJEGY</h3>
                                             <p><strong>Zóna:</strong> ${zona}</p>
-                                            <p><strong>Jármű szorzó:</strong> ${jarmuSzorzó}</p>
+                                            <p><strong>Jármű:</strong> ${jarmuText}</p>
                                             <p><strong>Időtartam:</strong> ${ora} óra ${perc} perc</p>
-                                            <p><strong>Fizetendő összeg:</strong> ${osszeg} Ft</p>
-                                            <img src="sign.png" alt="parking icon" class="ticket-icon">
+                                            <p id="ticket-cost"><strong>Fizetendő:</strong> <span
+                                                    id="ticket-cost-value">${osszeg} Ft</span></p>
+                                            <div class="ticket-images">
+                                                <img src="barcode-icon.png" alt="barcode icon" class="barcode-icon">
+                                                <img src="sign.png" alt="parking icon" class="ticket-icon">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

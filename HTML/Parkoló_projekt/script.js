@@ -2,7 +2,9 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
     event.preventDefault();
 
     const zona = document.getElementById("zona").value;
-    const jarmuSzorzó = parseFloat(document.getElementById("jarmu").value);
+    const jarmuSelect = document.getElementById("jarmu");
+    const jarmuMultiplier = parseFloat(jarmuSelect.value);
+    const jarmuText = jarmuSelect.options[jarmuSelect.selectedIndex].text;
     const ora = parseInt(document.getElementById("ora").value);
     const perc = parseInt(document.getElementById("perc").value);
     const berlet = document.getElementById("berlet").checked;
@@ -25,7 +27,7 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
         aktualisOraDij *= 1.10;
     }
 
-    osszeg *= jarmuSzorzó;
+    osszeg *= jarmuMultiplier;
     if (berlet) osszeg *= 0.8;
     osszeg = Math.min(Math.round(osszeg), 15000);
 
@@ -45,11 +47,15 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
     const ticketText = document.createElement("div");
     ticketText.className = "ticket-text";
     ticketText.innerHTML = `
-        <h3>Parkolójegy</h3>
+        <h3>PARKOLÓJEGY</h3>
         <p><strong>Zóna:</strong> ${zona}</p>
-        <p><strong>Jármű szorzó:</strong> ${jarmuSzorzó}</p>
+        <p><strong>Jármű:</strong> ${jarmuText}</p>
         <p><strong>Időtartam:</strong> ${ora} óra ${perc} perc</p>
-        <p><strong>Fizetendő összeg:</strong> ${osszeg} Ft</p>
+        <p id="ticket-cost"><strong>Fizetendő:</strong> <span id="ticket-cost-value">${osszeg} Ft</span></p>
+        <div class="ticket-images">
+            <img src="barcode-icon.png" alt="barcode icon" class="barcode-icon">
+            <img src="sign.png" alt="parking icon" class="ticket-icon">
+        </div>
     `;
 
     // Assemble
@@ -128,7 +134,7 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
             elmnt.style.left = newX + "px";
             elmnt.style.top = newY + "px";
 
-            const tilt = dx * 0.025;
+            const tilt = dx * 0.010;
             elmnt.style.transform = `rotate(${tilt}deg)`;
 
             handleTrashCollision(elmnt);
