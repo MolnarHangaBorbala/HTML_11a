@@ -1,11 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pakolójegy Vásárlása</title>
+    <title>| Parkolóház |</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="car.png" type="image/x-icon">
 </head>
+
 <body>
-    
+
+    <div class="window">
+        <div class="title-bar">
+            Parkolóház v1.0
+        </div>
+
+        <div class="content">
+            <form id="parkingForm">
+
+                <fieldset>
+                    <legend>Parkolási adatok</legend>
+
+                    <label>Parkolási zóna:</label>
+                    <select id="zona" required>
+                        <option value="A">A zóna (1000 Ft/óra)</option>
+                        <option value="B">B zóna (800 Ft/óra)</option>
+                        <option value="C">C zóna (600 Ft/óra)</option>
+                    </select>
+
+                    <label>Jármű típusa:</label>
+                    <select id="jarmu" required>
+                        <option value="1">Személyautó</option>
+                        <option value="1.5">Teherautó</option>
+                        <option value="1.2">Kisbusz</option>
+                    </select>
+
+                    <label>Parkolási idő:</label>
+                    <div class="time-input">
+                        <input type="number" id="ora" min="0" placeholder="Óra" required>
+                        <input type="number" id="perc" min="0" max="59" placeholder="Perc" required>
+                    </div>
+
+                    <label class="checkbox">
+                        <input type="checkbox" id="berlet">
+                        Bérletes kedvezmény (-20%)
+                    </label>
+
+                </fieldset>
+
+                <button type="submit" class="btn">Számítás</button>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="window">
+        <div class="title-bar">
+            Jegynyomtató
+        </div>
+        <div class="content">
+            <div class="inner-content">
+                <div class="printer-text">
+                    <h1>SuperJet Printer 98</h1>
+                </div>
+                <div class="printerbox">
+                    <div class="inner-printerbox">
+                        <div class="line">
+                            <div class="ticket-wrapper">
+                                <div class="ticket-shadow">
+                                    <div id="ticket" class="ticket">
+                                        <div id="ticket-text" class="ticket-text">
+                                            <h3>PARKOLÓJEGY</h3>
+                                            <p><strong>Zóna:</strong> ${zona}</p>
+                                            <p><strong>Jármű szorzó:</strong> ${jarmuSzorzó}</p>
+                                            <p><strong>Időtartam:</strong> ${ora} óra ${perc} perc</p>
+                                            <p><strong>Fizetendő összeg:</strong> ${osszeg} Ft</p>
+                                            <img src="sign.png" alt="parking icon" class="ticket-icon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="trash-box">
+        <span class="trash"></span>
+        <div class="trash-top"></div>
+        <div class="trash-btm">
+            <div class="trash-lines">
+                <div class="trash-line"></div>
+                <div class="trash-line"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
