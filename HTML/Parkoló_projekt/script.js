@@ -5,6 +5,7 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
     const jarmuSelect = document.getElementById("jarmu");
     const jarmuMultiplier = parseFloat(jarmuSelect.value);
     const jarmuText = jarmuSelect.options[jarmuSelect.selectedIndex].text;
+    const rendszam = document.getElementById("rendszam").value;
     const ora = parseInt(document.getElementById("ora").value);
     const perc = parseInt(document.getElementById("perc").value);
     const berlet = document.getElementById("berlet").checked;
@@ -29,7 +30,7 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
 
     osszeg *= jarmuMultiplier;
     if (berlet) osszeg *= 0.8;
-    osszeg = Math.min(Math.round(osszeg), 15000);
+    osszeg = Math.min(Math.round(osszeg), 9999);
 
     // Create a new ticket wrapper dynamically
     const printerBox = document.querySelector(".inner-printerbox .line");
@@ -50,7 +51,9 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
         <h3>PARKOLÓJEGY</h3>
         <p><strong>Zóna:</strong> ${zona}</p>
         <p><strong>Jármű:</strong> ${jarmuText}</p>
-        <p><strong>Időtartam:</strong> ${ora} óra ${perc} perc</p>
+        <p><strong>Időtartam:</strong> ${ora}ó ${perc}p</p>
+        <p><strong>Rendszám:</strong> ${rendszam}</p>
+        <p><strong>Bérlet:</strong> ${berlet ? "Igen" : "Nem"}</p>
         <p id="ticket-cost"><strong>Fizetendő:</strong> <span id="ticket-cost-value">${osszeg} Ft</span></p>
         <div class="ticket-images">
             <img src="barcode-icon.png" alt="barcode icon" class="barcode-icon">
