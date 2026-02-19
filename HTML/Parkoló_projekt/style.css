@@ -28,6 +28,33 @@ body {
     font-size: 14px;
 }
 
+.title-bar-btn {
+    top: -15px;
+    float: right;
+    margin-left: 5px;
+    position: relative;
+    height: 15px;
+    width: 18px;
+    background-color: #c0c0c0;
+    border: 2px outset #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 0px;
+    padding: 0px 1px;
+}
+
+.close {
+    font-size: 19px;
+}
+
+.minimize {
+    font-size: 24px;
+}
+
+.btn:active {
+    border: 2px inset #808080;
+}
+
 /* Tartalom */
 .content {
     padding: 15px;
