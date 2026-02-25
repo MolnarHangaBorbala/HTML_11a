@@ -68,8 +68,10 @@
                     </div>
 
                     <label>Rendszám:</label>
-                    <div class="time-input">
-                        <input type="text" id="rendszam" placeholder="ABC-123" required>
+                    <div class="license-plate-input">
+                        <select id="country" required></select>
+                        <input type="text" id="plate" placeholder="ABC-123 , AB-DC-123" required>
+                        <span id="error" style="color:red; font-size:12px;"></span>
                     </div>
 
                     <label class="checkbox">
@@ -87,16 +89,18 @@
 
     <div class="window">
         <div class="title-bar">
-            Jegynyomtató            <div class="title-bar-buttons">
+            Jegynyomtató <div class="title-bar-buttons">
                 <button class="title-bar-btn close">×</button>
                 <button class="title-bar-btn maximize">☐</button>
                 <button class="title-bar-btn minimize">-</button>
             </div>
         </div>
         <div class="content">
-            <div class="inner-content">
-                <div class="printer-text">
-                    <h1>SuperJet Printer 98</h1>
+            <fieldset>
+                <legend>SuperJet Printer 98</legend>
+                <p id="progress-text">Progress:</p>
+                <div class="progressbar-container">
+                    <div id="progress" class="progress"></div>
                 </div>
                 <div class="printerbox">
                     <div class="inner-printerbox">
@@ -109,7 +113,7 @@
                                             <p><strong>Zóna:</strong> ${zona}</p>
                                             <p><strong>Jármű:</strong> ${jarmuText}</p>
                                             <p><strong>Időtartam:</strong> ${ora}ó ${perc}p</p>
-                                            <p><strong>Rendszám:</strong> ${rendszam}</p>
+                                            <p><strong>R.szám:</strong> ${country} ${rendszam}</p>
                                             <p><strong>Bérlet:</strong> ${berlet ? "Igen" : "Nem"}</p>
                                             <p id="ticket-cost"><strong>Fizetendő:</strong> <span
                                                     id="ticket-cost-value">${osszeg} Ft</span></p>
@@ -124,7 +128,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </fieldset>
         </div>
     </div>
 

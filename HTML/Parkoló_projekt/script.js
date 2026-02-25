@@ -5,10 +5,12 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
     const jarmuSelect = document.getElementById("jarmu");
     const jarmuMultiplier = parseFloat(jarmuSelect.value);
     const jarmuText = jarmuSelect.options[jarmuSelect.selectedIndex].text;
-    const rendszam = document.getElementById("rendszam").value;
+    const rendszam = document.getElementById("plate").value;
     const ora = parseInt(document.getElementById("ora").value);
     const perc = parseInt(document.getElementById("perc").value);
     const berlet = document.getElementById("berlet").checked;
+    const progressBar = document.getElementById("progress");
+    const country = select.value;
 
     const zonaDijak = { "A": 1000, "B": 800, "C": 600 };
     let alapDij = zonaDijak[zona];
@@ -52,7 +54,7 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
         <p><strong>Zóna:</strong> ${zona}</p>
         <p><strong>Jármű:</strong> ${jarmuText}</p>
         <p><strong>Időtartam:</strong> ${ora}ó ${perc}p</p>
-        <p><strong>Rendszám:</strong> ${rendszam}</p>
+        <p><strong>R.szám:</strong> ${country} ${rendszam}</p>
         <p><strong>Bérlet:</strong> ${berlet ? "Igen" : "Nem"}</p>
         <p id="ticket-cost"><strong>Fizetendő:</strong> <span id="ticket-cost-value">${osszeg} Ft</span></p>
         <div class="ticket-images">
@@ -67,10 +69,14 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
     ticketWrapper.appendChild(ticketShadow);
     printerBox.appendChild(ticketWrapper);
 
-    // Animate the ticket
+    // Animate the ticket and progress bar
+    progressBar.style.animation = "none";
     ticket.style.animation = "none";
     void ticket.offsetWidth; // trigger reflow
+    void progressBar.offsetWidth; // trigger reflow
     ticket.style.animation = "print 7s ease-out forwards";
+    progressBar.style.animation = "printProgress 7s ease-out forwards";
+    document.documentElement.classList.add("busy");
 
     ticket.addEventListener("animationend", () => {
         // Set inline positions so dragging works
@@ -78,7 +84,8 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
         const computedLeft = parseFloat(window.getComputedStyle(ticketWrapper).left) || 0;
         ticketWrapper.style.top = computedTop + "px";
         ticketWrapper.style.left = computedLeft + "px";
-
+        document.documentElement.classList.remove("busy");
+        progressBar.style.animation = "none";
         // Enable dragging for this ticket
         dragElement(ticketWrapper);
     }, { once: true });
@@ -167,4 +174,76 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
             }
         }
     }
+});
+
+const countries = [
+    { code: "HU", name: "Hungary" },
+    { code: "DE", name: "Germany" },
+    { code: "FR", name: "France" },
+    { code: "IT", name: "Italy" },
+    { code: "US", name: "United States" },
+    { code: "GB", name: "United Kingdom" },
+    { code: "RS", name: "Serbia" },
+    { code: "UA", name: "Ukraine" }
+];
+
+const select = document.getElementById("country");
+
+countries.forEach(country => {
+    const option = document.createElement("option");
+    option.value = country.code;
+    option.textContent = country.code;
+    option.title = country.name;
+
+    select.appendChild(option);
+});
+
+const platePatterns = {
+    HU: [
+        /^[A-Z]{3}-?\d{3}$/,
+        /^[A-Z]{2}-?[A-Z]{2}-?\d{3}$/
+    ],
+    DE: [/^[A-Z]{1,3}-[A-Z]{1,2}\s?\d{1,4}$/],
+    FR: [/^[A-Z]{2}-?\d{3}-?[A-Z]{2}$/],
+    IT: [/^[A-Z]{2}\d{3}[A-Z]{2}$/],
+    US: [/^[A-Z0-9]{5,8}$/],
+    GB: [/^[A-Z]{2}\d{2}\s?[A-Z]{3}$/],
+    RS: [/^[A-Z]{2}-?\d{3}-?[A-Z]{2}$/],
+    UA: [/^[A-Z]{2}\d{4}[A-Z]{2}$/]
+};
+
+const plateInput = document.getElementById("plate");
+const errorDiv = document.getElementById("error");
+
+plateInput.addEventListener("input", () => {
+    const country = select.value;
+    const value = plateInput.value.toUpperCase();
+
+    plateInput.value = value;
+
+    const patterns = platePatterns[country];
+    if (!patterns) return;
+
+    const isValid = patterns.some(pattern => pattern.test(value));
+
+    if (!isValid) {
+        errorDiv.textContent = "❌";
+    } else {
+        errorDiv.textContent = "";
+    }
+});
+
+select.addEventListener("change", () => {
+    const placeholders = {
+        HU: "ABC-123 , AB-DC-123",
+        DE: "B-AB 1234",
+        FR: "AB-123-CD",
+        IT: "AB123CD",
+        US: "1ABC234",
+        GB: "AB12 CDE",
+        RS: "BG-123-AA",
+        UA: "AA1234BB"
+    };
+
+    plateInput.placeholder = placeholders[select.value] || "";
 });
