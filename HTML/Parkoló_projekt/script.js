@@ -235,14 +235,14 @@ plateInput.addEventListener("input", () => {
 
 select.addEventListener("change", () => {
     const placeholders = {
-        HU: "ABC-123 , AB-DC-123",
-        DE: "B-AB 1234",
+        HU: "ABC-123 , AB-CD-123",
+        DE: "A-BC 1234",
         FR: "AB-123-CD",
         IT: "AB123CD",
         US: "1ABC234",
         GB: "AB12 CDE",
-        RS: "BG-123-AA",
-        UA: "AA1234BB"
+        RS: "AB-123-CD",
+        UA: "AB1234CD"
     };
 
     plateInput.placeholder = placeholders[select.value] || "";
