@@ -1,6 +1,7 @@
 document.getElementById("parkingForm").addEventListener("submit", function (event) {
     event.preventDefault();
 
+    // --- Get form values ---
     const zona = document.getElementById("zona").value;
     const jarmuSelect = document.getElementById("jarmu");
     const jarmuMultiplier = parseFloat(jarmuSelect.value);
@@ -10,23 +11,31 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
     const perc = parseInt(document.getElementById("perc").value);
     const berlet = document.getElementById("berlet").checked;
     const progressBar = document.getElementById("progress");
-    const country = select.value;
+    const country = document.getElementById("country").value;
 
+    const errorDiv = document.getElementById("error");
+    if (errorDiv.textContent === "❌") {
+        alert("Hibás rendszám!");
+        return;
+    }
+
+    if (ora === 0 && perc === 0) {
+        alert("Adj meg parkolási időt!");
+        return;
+    }
+
+    // --- Progressive pricing ---
     const zonaDijak = { "A": 1000, "B": 800, "C": 600 };
     let alapDij = zonaDijak[zona];
-    let teljesOra = ora + (perc / 60);
+    let teljesOra = ora + perc / 60;
     let osszeg = 0;
     let aktualisOraDij = alapDij;
     let maradekIdo = teljesOra;
 
     while (maradekIdo > 0) {
-        if (maradekIdo >= 1) {
-            osszeg += aktualisOraDij;
-            maradekIdo -= 1;
-        } else {
-            osszeg += aktualisOraDij * maradekIdo;
-            maradekIdo = 0;
-        }
+        let fizetettOra = Math.min(maradekIdo, 1);
+        osszeg += aktualisOraDij * fizetettOra;
+        maradekIdo -= fizetettOra;
         aktualisOraDij *= 1.10;
     }
 
@@ -34,7 +43,11 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
     if (berlet) osszeg *= 0.8;
     osszeg = Math.min(Math.round(osszeg), 9999);
 
-    // Create a new ticket wrapper dynamically
+    // --- Generate dynamic date ---
+    const now = new Date();
+    const formattedDate = `${now.getFullYear()}.${String(now.getMonth() + 1).padStart(2, '0')}.${String(now.getDate()).padStart(2, '0')} - ${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+
+    // --- Build ticket ---
     const printerBox = document.querySelector(".inner-printerbox .line");
 
     const ticketWrapper = document.createElement("div");
@@ -44,124 +57,108 @@ document.getElementById("parkingForm").addEventListener("submit", function (even
     ticketShadow.className = "ticket-shadow";
 
     const ticket = document.createElement("div");
-    ticket.id = "ticket";
     ticket.className = "ticket";
 
     const ticketText = document.createElement("div");
     ticketText.className = "ticket-text";
-    ticketText.innerHTML = `
-        <h3>PARKOLÓJEGY</h3>
-        <p><strong>Zóna:</strong> ${zona}</p>
-        <p><strong>Jármű:</strong> ${jarmuText}</p>
-        <p><strong>Időtartam:</strong> ${ora}ó ${perc}p</p>
-        <p><strong>R.szám:</strong> ${country} ${rendszam}</p>
-        <p><strong>Bérlet:</strong> ${berlet ? "Igen" : "Nem"}</p>
-        <p id="ticket-cost"><strong>Fizetendő:</strong> <span id="ticket-cost-value">${osszeg} Ft</span></p>
-        <div class="ticket-images">
-            <img src="barcode-icon.png" alt="barcode icon" class="barcode-icon">
-            <img src="sign.png" alt="parking icon" class="ticket-icon">
-        </div>
-    `;
+    // Generate random ticket number
+    function generateRandomTicketNumber(length = 11) {
+        let numbers = [];
+        for (let i = 0; i < length; i++) {
+            numbers.push(Math.floor(Math.random() * 10));
+        }
+        return numbers.join(' ');
+    }
 
-    // Assemble
+    const ticketNumber = generateRandomTicketNumber();
+    ticketText.innerHTML = `
+    <h3>PARKOLÓJEGY</h3>
+    <p><strong>Zóna:</strong> ${zona}</p>
+    <p><strong>Jármű:</strong> ${jarmuText}</p>
+    <p><strong>Időtartam:</strong> ${ora}ó ${perc}p</p>
+    <p><strong>R.szám:</strong> ${country} ${rendszam}</p>
+    <p><strong>Bérlet:</strong> ${berlet ? "Igen" : "Nem"}</p>
+    <p id="ticket-cost"><strong>Fizetendő:</strong> <span class="ticket-cost-value">${osszeg} Ft</span></p>
+    <div class="ticket-date">
+        <p>Dátum: <span class="ticket-date-value">${formattedDate}</span></p>
+    </div>
+    <div class="ticket-number">
+        <p><span class="ticket-number-value">${ticketNumber}</span></p>
+    </div>
+    <div class="ticket-images">
+        <img src="barcode-icon.png" alt="barcode icon" class="barcode-icon">
+        <img src="sign.png" alt="parking icon" class="ticket-icon">
+    </div>
+`;
+
+    // --- Assemble ticket ---
     ticket.appendChild(ticketText);
     ticketShadow.appendChild(ticket);
     ticketWrapper.appendChild(ticketShadow);
     printerBox.appendChild(ticketWrapper);
 
-    // Animate the ticket and progress bar
+    // --- Animate ticket and progress bar ---
     progressBar.style.animation = "none";
     ticket.style.animation = "none";
-    void ticket.offsetWidth; // trigger reflow
-    void progressBar.offsetWidth; // trigger reflow
+    void ticket.offsetWidth;
+    void progressBar.offsetWidth;
     ticket.style.animation = "print 7s ease-out forwards";
     progressBar.style.animation = "printProgress 7s ease-out forwards";
     document.documentElement.classList.add("busy");
 
     ticket.addEventListener("animationend", () => {
-        // Set inline positions so dragging works
         const computedTop = parseFloat(window.getComputedStyle(ticketWrapper).top) || 0;
         const computedLeft = parseFloat(window.getComputedStyle(ticketWrapper).left) || 0;
         ticketWrapper.style.top = computedTop + "px";
         ticketWrapper.style.left = computedLeft + "px";
         document.documentElement.classList.remove("busy");
         progressBar.style.animation = "none";
-        // Enable dragging for this ticket
         dragElement(ticketWrapper);
     }, { once: true });
 
+    // --- Drag & trash logic ---
     function dragElement(elmnt) {
         let startX = 0, startY = 0, origX = 0, origY = 0;
 
         elmnt.onmousedown = function (e) {
             e.preventDefault();
             elmnt.classList.add("dragging");
-
-            startX = e.clientX;
-            startY = e.clientY;
+            startX = e.clientX; startY = e.clientY;
             origX = parseFloat(elmnt.style.left) || 0;
             origY = parseFloat(elmnt.style.top) || 0;
-
             document.onmouseup = closeDragElement;
             document.onmousemove = elementDrag;
         };
 
         function handleTrashCollision(elmnt) {
             const trash = document.querySelector(".trash-box");
-
             const ticketRect = elmnt.getBoundingClientRect();
             const trashRect = trash.getBoundingClientRect();
-
             const ticketCenterX = ticketRect.left + ticketRect.width / 2;
             const ticketCenterY = ticketRect.top + ticketRect.height / 2;
-
             const trashCenterX = trashRect.left + trashRect.width / 2;
             const trashCenterY = trashRect.top + trashRect.height / 2;
-
-            const distance = Math.hypot(
-                ticketCenterX - trashCenterX,
-                ticketCenterY - trashCenterY
-            );
-
-            const snapDistance = 100; // increase if needed
-
-            if (distance < snapDistance) {
-                trash.classList.add("active");
-            } else {
-                trash.classList.remove("active");
-            }
+            const distance = Math.hypot(ticketCenterX - trashCenterX, ticketCenterY - trashCenterY);
+            trash.classList.toggle("active", distance < 100);
         }
 
         function elementDrag(e) {
             e.preventDefault();
-
-            const dx = e.clientX - startX;
-            const dy = e.clientY - startY;
-
-            const newX = origX + dx;
-            const newY = origY + dy;
-
-            elmnt.style.left = newX + "px";
-            elmnt.style.top = newY + "px";
-
-            const tilt = dx * 0.010;
-            elmnt.style.transform = `rotate(${tilt}deg)`;
-
+            const dx = e.clientX - startX, dy = e.clientY - startY;
+            elmnt.style.left = (origX + dx) + "px";
+            elmnt.style.top = (origY + dy) + "px";
+            elmnt.style.transform = `rotate(${dx * 0.01}deg)`;
             handleTrashCollision(elmnt);
         }
 
         function closeDragElement() {
-            document.onmouseup = null;
-            document.onmousemove = null;
-            elmnt.classList.remove("dragging");
-            elmnt.style.transform = "rotate(0deg)";
-
+            document.onmouseup = null; document.onmousemove = null;
+            elmnt.classList.remove("dragging"); elmnt.style.transform = "rotate(0deg)";
             const trash = document.querySelector(".trash-box");
             trash.classList.remove("active");
 
             const ticketRect = elmnt.getBoundingClientRect();
             const trashRect = trash.getBoundingClientRect();
-
             const isOverlapping =
                 ticketRect.left < trashRect.right &&
                 ticketRect.right > trashRect.left &&

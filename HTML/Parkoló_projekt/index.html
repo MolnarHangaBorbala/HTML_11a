@@ -108,19 +108,25 @@
                             <div class="ticket-wrapper">
                                 <div class="ticket-shadow">
                                     <div id="ticket" class="ticket">
+                                        <div class="ticket-date">
+                                            <p>Dátum: <span id="ticket-date-value">2025.02.28 - 07:00</span></p>
+                                        </div>
                                         <div id="ticket-text" class="ticket-text">
                                             <h3>PARKOLÓJEGY</h3>
-                                            <p><strong>Zóna:</strong> ${zona}</p>
-                                            <p><strong>Jármű:</strong> ${jarmuText}</p>
-                                            <p><strong>Időtartam:</strong> ${ora}ó ${perc}p</p>
-                                            <p><strong>R.szám:</strong> ${country} ${rendszam}</p>
-                                            <p><strong>Bérlet:</strong> ${berlet ? "Igen" : "Nem"}</p>
+                                            <p><strong>Zóna:</strong> A</p>
+                                            <p><strong>Jármű:</strong> személy</p>
+                                            <p><strong>Időtartam:</strong> 1ó 0p</p>
+                                            <p><strong>R.szám:</strong> as 123-asd</p>
+                                            <p><strong>Bérlet:</strong> igen</p>
                                             <p id="ticket-cost"><strong>Fizetendő:</strong> <span
-                                                    id="ticket-cost-value">${osszeg} Ft</span></p>
+                                                    id="ticket-cost-value">1000 Ft</span></p>
                                             <div class="ticket-images">
                                                 <img src="barcode-icon.png" alt="barcode icon" class="barcode-icon">
                                                 <img src="sign.png" alt="parking icon" class="ticket-icon">
                                             </div>
+                                        </div>
+                                        <div class="ticket-number">
+                                            <p><span class="ticket-number-value">0 0 0 0 0 0 0 0 0 0 0</span></p>
                                         </div>
                                     </div>
                                 </div>
